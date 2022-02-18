@@ -1,5 +1,6 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); /*Karla*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); /*Bungee Inline*/
 
 /*Global styles*/
 *, *::after, *::before {
@@ -39,7 +40,8 @@ header {
     color: black;
     text-decoration: none;
     font-size: 20px;
-    transition: 0.5s;
+    transition: 0.3s;
+    padding: 10px 20px;
 }
 .nav-links > li > .active-page {
     background-color: #fe0000;
@@ -49,9 +51,8 @@ header {
 }
 
 .nav-link a:hover {
-    padding: 10px 20px;
-    color: white;
-    background-color: #fe0000;
+    border: 1px solid #fe0000;
+    border-radius: 20px;
 }
 .nav-link + .nav-link {
     margin-left: 80px;
@@ -71,4 +72,47 @@ header {
 .line + .line {
     margin-top: 3px;
 }
-/*#fe0000/
+
+/*Hero*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text {
+    color: white;
+}
+
+.hero-text h1 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 3rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.hero-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fe0000;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-text button:hover {
+    background-color: white;
+    color: black;
+}
+.hero-img img {
+    height: 500px;
+}
+
+/*I wanna make the hero center focused*/
