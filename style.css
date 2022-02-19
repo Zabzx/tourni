@@ -153,3 +153,17 @@ header {
     font-family: 'Karla', sans-serif;
     font-size: 1.1rem;
 }
+
+.hero-ext {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+    transform: translateX(-50px);
+}
+.ext-item i {
+    font-size: 100px;
+}
+.ext-item h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+}
