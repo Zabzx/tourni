@@ -1,6 +1,6 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); /*Karla*/
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); /*Bungee Inline*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap'); /*Bungee*/
 
 /*Global styles*/
 *, *::after, *::before {
@@ -17,11 +17,58 @@ body {
     font-family: 'Karla', sans-serif;
     background-color: black;
 }
+.divider {
+    position: relative;
+}
+
+/*Curves*/
+/*Navbar Curve*/
+.nav-curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.nav-curve svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 45px;
+}
+
+.nav-curve .shape-fill {
+    fill: #FFFFFF;
+}
+/*Hero Curve*/
+.hero-curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.hero-curve svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 184px;
+}
+
+.hero-curve .shape-fill {
+    fill: #FFFFFF;
+}
 
 /*Header*/
 .header-container {
     background-color: white;
     height: 120px;
+    position: relative;
 }
 header {
     display: flex;
@@ -73,46 +120,36 @@ header {
     margin-top: 3px;
 }
 
+
 /*Hero*/
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-}
-.hero-text {
     color: white;
+    text-align: center;
+    width: 70%;
+    margin: 150px auto 0px;
+    height: 100vh;
 }
 
-.hero-text h1 {
-    font-family: 'Bungee Inline', cursive;
+.hero h1 {
+    font-family: 'Bungee', cursive;
     font-size: 3rem;
+    line-height: 80px;
 }
 
-.hero-text p {
+.hero p {
+    font-family: 'Karla', sans-serif; 
     font-size: 1.5rem;
-    font-family: 'Karla', sans-serif;
 }
 
-.hero-text button {
+.hero button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #fe0000;
+    color: white;
     border: none;
     border-radius: 20px;
-    color: white;
-    font-family: 'Karla', sans-serif;
-    font-size: 1.5rem;
-    cursor: pointer;
     transition: 0.3s;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1rem;
 }
-
-.hero-text button:hover {
-    background-color: white;
-    color: black;
-}
-.hero-img img {
-    height: 500px;
-}
-
-/*I wanna make the hero center focused*/
