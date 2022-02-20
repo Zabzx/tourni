@@ -167,3 +167,18 @@ header {
     font-family: 'Karla', sans-serif;
     font-size: 30px;
 }
+
+/*Community*/
+.community {
+    background-color: white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.community h1 {
+    font-size: 50px;
+}
+.community p {
+    font: 30px;
+}
