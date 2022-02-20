@@ -172,13 +172,24 @@ header {
 .community {
     background-color: white;
     padding-top: 100px;
+}
+.c-container {
     display: flex;
-    flex-direction: column;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
+}
+.community-icon i {
+    font-size: 200px;
+    color: #fe0000;
+}
+.community-text {
+    width: 50%;
 }
 .community h1 {
-    font-size: 50px;
+    font-size: 3rem;
+    color: #fe0000;
 }
 .community p {
-    font: 30px;
+    font-size: 1.5rem;
+    margin-top: 20px;
 }
