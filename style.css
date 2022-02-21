@@ -16,6 +16,7 @@
 body {
     font-family: 'Karla', sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
 .divider {
     position: relative;
@@ -194,6 +195,9 @@ header {
     cursor: pointer;
     font-family: 'Karla', sans-serif;
     font-size: 1.1rem;
+}
+.hero button:hover {
+    transform: scale(1.1);
 }
 
 .hero-ext {
