@@ -64,6 +64,27 @@ body {
     fill: #FFFFFF;
 }
 
+.custom-shape-divider-bottom-1645418550 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1645418550 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 112px;
+}
+
+.custom-shape-divider-bottom-1645418550 .shape-fill {
+    fill: black;
+}
+
 /*Header*/
 .header-container {
     background-color: white;
@@ -172,6 +193,7 @@ header {
 .community {
     background-color: white;
     padding-top: 100px;
+    padding-bottom: 200px;
 }
 .c-container {
     display: flex;
@@ -192,4 +214,9 @@ header {
 .community p {
     font-size: 1.5rem;
     margin-top: 20px;
+}
+
+/*Events*/
+.events {
+    color: white;
 }
