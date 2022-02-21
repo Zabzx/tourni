@@ -84,6 +84,27 @@ body {
 .custom-shape-divider-bottom-1645418550 .shape-fill {
     fill: black;
 }
+/*Event Curve*/
+.event-curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.event-curve svg {
+    position: relative;
+    display: block;
+    width: calc(116% + 1.3px);
+    height: 112px;
+}
+
+.event-curve .shape-fill {
+    fill: black;
+}
 
 /*Header*/
 .header-container {
@@ -219,4 +240,85 @@ header {
 /*Events*/
 .events {
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.e-text {
+    width: 50%;
+}
+.e-icon i {
+    font-size: 200px;
+    color: #fe0000;
+}
+.events h1 {
+    font-size: 3rem;
+    color: #fe0000;
+}
+.events p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/*Giveaways*/
+.giveaways {
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom : 100px;
+}
+.g-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.g-text {
+    width: 50%;
+}
+.giveaways h1 {
+    font-size: 3rem;
+    color: #fe0000;
+}
+.giveaways p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.g-icon i {
+    font-size: 200px;
+    color: #fe0000;
+}
+
+/*Footer*/
+footer {
+    color: white;
+    height: 200px;
+    padding: 50px 0px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.f-logo {
+    border-right: 2px solid grey;
+    padding: 50px 50px 50px 0px;
+}
+
+.contact-numbers {
+    border-right: 2px solid grey;
+    padding: 50px 50px 50px 0px;
+}
+
+.social-links ul {
+    list-style: none;
+}
+.social-link + .social-link {
+    margin-top: 20px;
+}
+.social-links i {
+    color: white;
+    font-size: 2rem;
+    margin-right: 20px;
 }
