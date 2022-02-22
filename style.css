@@ -326,3 +326,69 @@ footer {
     font-size: 2rem;
     margin-right: 20px;
 }
+
+/*Mobile View*/
+@media only screen and (max-width: 600px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    /*Header*/
+    nav {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+    }
+    .hero-ext {
+        display: none;
+    }
+
+    /*Community*/
+    .community {
+        padding-top: 0px;
+    }
+    .c-container {
+        flex-direction: column;
+    }
+    .community-text {
+        width: 80%;
+    }
+    /*Events*/
+    .events {
+        flex-direction: column;
+    }
+    .e-text {
+        width: 80%;
+    }
+    .events i {
+        margin-top: 50px;
+    }
+
+    /*Giveaways*/
+    .g-container {
+        flex-direction: column;
+    }
+    .g-text {
+        width: 80%;
+    }
+
+    /*Footer*/
+    .f-logo {
+        border: none;
+    }
+    .contact-numbers {
+        border: none;
+    }
+    footer i {
+        font-size: 1rem;
+    }
+    .social-links {
+        text-align: center;
+    }
+}
