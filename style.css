@@ -12,11 +12,9 @@
     width: 90%;
     margin: 0 auto;
 }
-
 body {
     font-family: 'Karla', sans-serif;
     background-color: black;
-    overflow-x: hidden;
 }
 .divider {
     position: relative;
@@ -329,8 +327,8 @@ footer {
 
 /*Mobile View*/
 @media only screen and (max-width: 600px) {
-    body {
-        overflow-y: auto;
+    html, body{
+        overflow-y: visible;
     }
     /*Header*/
     nav {
