@@ -327,8 +327,14 @@ footer {
 
 /*Mobile View*/
 @media only screen and (max-width: 600px) {
-    html, body{
+    body {
+        overflow-y: hidden;
+    }
+    html {
         overflow-y: visible;
+    }
+    html, body{
+        overflow-x: hidden;
     }
     /*Header*/
     nav {
