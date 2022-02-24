@@ -34,3 +34,15 @@ const gtl = gsap.timeline({defaults: {duration: 1, ease: "back.out"}, scrollTrig
 
 gtl.fromTo('.g-text', {opacity: 0, x: -200, duration: 0.25}, {opacity: 1, x: 0});
 gtl.fromTo('.g-icon', {opacity: 0, y: -200,}, {opacity: 1, y: 0});
+
+//NavBar Menu
+const menuBtn = document.querySelector('.menu');
+const menu = document.querySelector('.nav-links');
+const body = document.querySelector('body');
+const html = document.querySelector('html');
+
+menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('nav-active');
+    body.classList.toggle('body-noscroll')
+    html.classList.toggle('body-noscroll')
+})

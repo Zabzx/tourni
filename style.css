@@ -17,6 +17,9 @@ body {
     background-color: black;
     overflow-x: hidden;
 }
+.body-noscroll {
+    overflow: hidden;
+}
 .divider {
     position: relative;
 }
@@ -339,10 +342,36 @@ footer {
     }
     /*Header*/
     nav {
-        display: none;
+        display: block;
+        width: 100vh;
     }
+    .nav-links {
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        height: 90vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        justify-content: space-around;
+        align-items: center;
+        transform: translateX(100%);
+        transition: 0.4s;
+    }
+    .nav-active {
+        transform: translateX(0%);
+    }
+    .nav-link a {
+        color: white;
+    }
+    .nav-link + .nav-link {
+        margin-left: 0px;
+    }
+    /*Hero*/
     .menu {
         display: block;
+        z-index: 2;
     }
     .hero {
         height: 80vh;
