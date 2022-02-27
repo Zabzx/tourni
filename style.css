@@ -331,6 +331,10 @@ footer {
     font-size: 2rem;
     margin-right: 20px;
 }
+.social {
+    color: white;
+    text-decoration: none;
+}
 
 /*Mobile View*/
 @media only screen and (max-width: 600px) {
@@ -352,7 +356,7 @@ footer {
         flex-direction: column;
         background-color: black;
         position: absolute;
-        height: 90vh;
+        height: 100vh;
         width: 100vw;
         top: 0;
         left: 0;
