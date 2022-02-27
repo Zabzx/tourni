@@ -12,6 +12,9 @@
     width: 90%;
     margin: 0 auto;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Karla', sans-serif;
     background-color: black;
