@@ -423,16 +423,31 @@ footer {
     }
 
     /*Footer*/
+    footer {
+        padding: 10px;
+        position: relative;
+    }
+    .footer-container {
+        display: block;
+    }
     .f-logo {
         border: none;
+        padding: 0px;
     }
     .contact-numbers {
         border: none;
+        padding: 0px;
+        margin-top: 10px;
     }
     footer i {
         font-size: 1rem;
     }
     .social-links {
-        text-align: center;
+        margin-top: 10px;
+    }
+    .yt {
+        position: absolute;
+        right: 10px;
+        top: 100px;
     }
 }
