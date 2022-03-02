@@ -319,7 +319,9 @@ footer {
     border-right: 2px solid grey;
     padding: 50px 50px 50px 0px;
 }
-
+.fa-discord {
+    margin-left: -3px;
+}
 .social-links ul {
     list-style: none;
 }
